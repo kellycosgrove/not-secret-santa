@@ -10,6 +10,7 @@ logging.basicConfig(filename='secret_santa.log', filemode='w', format='%(levelna
 
 HOUSEHOLD_PAIRS = False
 
+
 # functions
 def get_names():
     global HOUSEHOLD_PAIRS
