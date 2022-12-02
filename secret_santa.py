@@ -59,6 +59,12 @@ def announce_pairs(_in_ss_pairs):
 
 
 if __name__ == '__main__':
+    reroll = True
+
     name_list = get_names()
-    ss_pairs = match_names(name_list)
-    announce_pairs(ss_pairs)
+    while reroll:
+        ss_pairs = match_names(name_list)
+        announce_pairs(ss_pairs)
+        rr = input("Reroll? [Y/N]: ")
+        if rr == "N":
+            reroll = False
