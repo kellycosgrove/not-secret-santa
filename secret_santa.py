@@ -1,4 +1,5 @@
 # libraries
+
 import random
 import logging
 
@@ -12,6 +13,7 @@ HOUSEHOLD_PAIRS = False
 
 
 # functions
+
 def get_names():
     global HOUSEHOLD_PAIRS
     _out_name_list = []
